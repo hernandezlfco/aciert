@@ -1,0 +1,80 @@
+/* Variables */
+$padding-top-category: 50px;
+$padding-left-category: 50px;
+$button-width: 40%;
+
+/* Estilos */
+.content-category {
+    padding-top: $padding-top-category;
+}
+
+.img-category {
+    padding-left: $padding-left-category;
+    width: 100%;
+    max-width: 100%;  
+    height: auto;     
+    display: block;
+    margin: 0 auto;   
+}
+
+.img-category-card {
+    margin-top: 28px;
+    margin-bottom: 20px;
+}
+
+.card-category {
+    width: 12rem;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-left: none;
+    border-top: none;
+    box-shadow: 8px 8px 8px -5px rgba(0, 0, 0, 0.5), 0 5px 5px -5px rgba(0, 0, 0, 0.5);
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-radius: 0px;
+    height: 245px;
+}
+
+.title-category {
+    font-family: "Poppins";
+    font-weight: bold;
+    line-height: 24px;
+    color: #393939;
+    font-size: 16px;
+    text-align: left;
+}
+
+.more-category {
+    height: 40px;
+    width: $button-width;
+    border: none;
+    border-radius: 12px;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #0EB0F1;
+    color: #ffffff;
+    left: 132px;
+    z-index: 2;
+    border-radius: 26px;
+}
+
+.cards-padding {
+    padding-bottom: 15px;
+}
+
+@media (max-width: 1199px) {
+    .img-category {
+        padding-left: unset;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .card-category {
+        width: 10rem;
+        height: 270px;
+    }
+}
